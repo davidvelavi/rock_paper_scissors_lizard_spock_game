@@ -1,0 +1,25 @@
+.Game{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    &-Board{
+        margin: 1.5rem;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    &-Player{
+        overflow: auto;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(5, auto);
+        padding: 1rem 0;
+    }
+    &-CPU{
+        display: flex;
+        justify-content: center;
+    }
+
+}

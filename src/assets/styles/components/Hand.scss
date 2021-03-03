@@ -1,0 +1,34 @@
+.Hand{
+    align-items: center;
+    border-radius: 50%;
+    border: solid 0.8rem;
+    box-shadow: inset 0px 2px 2px #888, 0px 2px 2px #888;
+    cursor: pointer;
+    display: flex;
+    font-size: 3.5rem;
+    height: 9rem;
+    justify-content: center;
+    margin-top: 1rem;
+    outline: none;
+    width: 9rem;
+}
+.Hand.rock{
+    color: #E25858;
+}
+
+.Hand.paper{
+    color: #7ba28a;
+}
+
+.Hand.scissors{
+    color: #384252;
+}
+
+.Hand.spock{
+    color: #81597F;
+}
+
+.Hand.lizard{
+    color: #BF944B;
+}
+
